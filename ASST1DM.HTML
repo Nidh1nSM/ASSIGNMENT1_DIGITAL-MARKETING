@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Mix Analysis | Amal Jyothi College of Engineering</title>
+    <link rel="icon" type="image/x-icon" href="https://www.ajce.in/favicon.ico">
+    
+    <style>
+        :root {
+            --ajce-maroon: #800000; /* Deep Maroon */
+            --ajce-gold: #FFD700;   /* Academic Gold */
+            --ajce-blue: #003366;   /* Formal Blue */
+            /* CHANGED: Eye-catching subtle background color */
+            --light-bg: #fdf5e6;    
+            --text-gray: #444;
+        }
+
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            color: var(--text-gray);
+            /* CHANGED: Applied a linear gradient for a more dynamic look */
+            background: linear-gradient(135deg, #fdf5e6 0%, #ececec 100%);
+            background-attachment: fixed;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: var(--ajce-maroon);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid transparent;
+        }
+
+        nav a:hover {
+            color: var(--ajce-gold);
+            border-bottom: 2px solid var(--ajce-gold);
+        }
+
+        /* Hero Header */
+        header {
+            background: linear-gradient(rgba(128, 0, 0, 0.85), rgba(0, 51, 102, 0.85)), 
+                        url('https://www.ajce.in/home/images/slider/slide1.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            border-bottom: 5px solid var(--ajce-gold);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-style: italic;
+            color: var(--ajce-gold);
+        }
+
+        /* Section Styling */
+        section {
+            padding: 60px 10%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h2 {
+            color: var(--ajce-maroon);
+            font-size: 2rem;
+            border-left: 8px solid var(--ajce-blue);
+            padding-left: 15px;
+            margin-bottom: 30px;
+        }
+
+        /* Content Cards */
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border: 1px solid #eee;
+        }
+
+        .card h3 {
+            color: var(--ajce-blue);
+            margin-top: 0;
+        }
+
+        /* Table Design */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+
+        th {
+            background-color: var(--ajce-blue);
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background-color: #fff9e6;
+        }
+
+        /* Multimedia */
+        .img-placeholder {
+            width: 100%;
+            height: 250px;
+            background-color: #ddd;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        .video-container {
+            margin-top: 20px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--ajce-blue);
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 50px;
+        }
+
+        .footer-links a {
+            color: var(--ajce-gold);
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#home" target="_blank">Home</a>
+        <a href="#product" target="_blank">Product</a>
+        <a href="#price" target="_blank">Price</a>
+        <a href="#place" target="_blank">Place</a>
+        <a href="#promotion" target="_blank">Promotion</a>
+        <a href="#analysis" target="_blank">Analysis</a>
+    </nav>
+
+    <header id="home">
+        <h1>Amal Jyothi College of Engineering</h1>
+        <p>Strategic Analysis of the Marketing Mix (4Ps)</p>
+    </header>
+
+    <section>
+        <h2>Executive Summary</h2>
+        <p>
+            Amal Jyothi College of Engineering (AJCE), Kanjirappally, is a premier central-travancore institution known for its infrastructure and industry-tie-ups. This report analyzes how AJCE leverages the 4Ps to maintain its status as the first self-financing engineering college in Kerala to be managed by a Catholic Diocese.
+        </p>
+    </section>
+
+    <section id="product">
+        <h2>1. Product: Academic Offerings</h2>
+        <div class="content-grid">
+            <div class="card">
+                <h3>Programs & Curriculum</h3>
+                <ul>
+                    <li>B.Tech in emerging fields (AI, Data Science, Robotics).</li>
+                    <li>NBA Accredited departments ensuring quality.</li>
+                    <li>Strong focus on research and innovation through the Start-up Valley TBI.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Campus Facilities</h3>
+                <img src="clg.jpg" alt="AJCE Campus" class="img-placeholder">
+                <p>Equipped with state-of-the-art labs, a massive Central Library, and high-speed Wi-Fi across the 65-acre campus.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="price">
+        <h2>2. Price: Value Proposition</h2>
+        <p>AJCE follows a structured fee system regulated by the Kerala Government, complemented by significant scholarship incentives.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Fee Type</th>
+                    <th>Financial Support</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Merit (KEAM)</td>
+                    <td>Government Regulated</td>
+                    <td>Scholarships for top rankers</td>
+                </tr>
+                <tr>
+                    <td>Hostel</td>
+                    <td>Standard/AC Options</td>
+                    <td>Subsidized for underprivileged</td>
+                </tr>
+                <tr>
+                    <td>Placement Training</td>
+                    <td>Skill Development Fee</td>
+                    <td>High ROI through placements</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="place">
+        <h2>3. Place: Location & Accessibility</h2>
+        <div class="card">
+            <p><strong>Strategic Hub:</strong> Located in Koovappally, Kanjirappally, along the NH-183, the college serves as a hub for students from across Kerala.</p>
+            <p><strong>Digital Presence:</strong> Beyond the physical campus, AJCE utilizes advanced LMS (Learning Management Systems) and digital portals for student services, ensuring learning is accessible 24/7.</p>
+        </div>
+    </section>
+
+    <section id="promotion">
+        <h2>4. Promotion: Branding & Communication</h2>
+        <div class="content-grid">
+            <div>
+                <p>AJCE maintains a high-visibility profile through:</p>
+                <ul>
+                    <li><strong>Events:</strong> Hosting national fests like 'Azure'.</li>
+                    <li><strong>Social Media:</strong> Engaging content on Instagram and YouTube showcasing student life.</li>
+                    <li><strong>Alumni Network:</strong> Leveraging successful global alumni for word-of-mouth branding.</li>
+                </ul>
+                <a href="https://www.ajce.in" target="_blank" style="color: var(--ajce-maroon); font-weight: bold;">Visit Official Website →</a>
+            </div>
+            <div class="video-container">
+                <iframe width="100%" height="315" src="https://youtu.be/OwovlA9sTXw?si=uQy8Q8bep8WKfrGA" title="AJCE Campus Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="analysis">
+        <h2>Marketing Mix Analysis</h2>
+        <div class="content-grid">
+            <div class="card" style="border-top: 5px solid green;">
+                <h3 style="color: green;">Strengths</h3>
+                <ul>
+                    <li>First-class TBI (Incubation Center).</li>
+                    <li>Excellent placement records in MNCs.</li>
+                    <li>Strong religious and ethical foundation.</li>
+                </ul>
+            </div>
+            <div class="card" style="border-top: 5px solid red;">
+                <h3 style="color: red;">Opportunities</h3>
+                <ul>
+                    <li>Expanding international student exchange.</li>
+                    <li>Developing more niche industry-integrated courses.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://www.ajce.in/admissions/" target="_blank">Admissions</a> | 
+            <a href="https://www.ajce.in/placements/" target="_blank">Placements</a> | 
+            <a href="https://www.ajce.in/departments/" target="_blank">Departments</a>
+        </div>
+        <p>&copy; 2026 Marketing Analysis Portfolio | Amal Jyothi College of Engineering</p>
+    </footer>
+
+</body>
+</html>
